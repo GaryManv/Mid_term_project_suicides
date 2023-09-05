@@ -5,3 +5,9 @@ The "Suicide Rates Overview 1985 to 2016" dataset was chosen because it intrigue
 
 #### Collaborative Work on GitHub
 In our project, we're using GitHub to work together with classmates. To make things easier, we decided to keep two separate files for each stage of the project. Everyone works on their own version, and we update them based on what we learn from each other. When a project stage is finished, we'll keep the main file in the main folder and move the working files to an archive folder.
+
+#### Questions arrising during the analysis (to keep it somewhere)
+Is there correlation between the number of suicides and <br>
+- geographical location (north VS south, more sunny VS more cloudy)
+- religion in the country
+- 

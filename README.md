@@ -26,15 +26,17 @@ The following attempts were processed:
     
 - 2. The model with 2 independent variables shows better results ( R was 0.054) but still indicates multicollinearity or other numerical problem in the  OLS Regression Results. Again, the model didn't meet linear regression assumptions.<br>
  
--3. The model with only one independent variable shows worse result (R=0).LR assumptions didn't apply to the model.<br>
+- 3. The model with only one independent variable shows worse result (R=0).LR assumptions didn't apply to the model.<br>
     
--4. Same as No3 with droped rows for a columns with 0 suicides per country (small quantity , just 13 over 697). No changes to results.
+- 4. Same as No3 with droped rows for a columns with 0 suicides per country (small quantity , just 13 over 697). No changes to results.
     
--5. Model No. 2, which was considered the best among all models, incorporated a normalized 'gdp_per_capita' variable through logarithmic and Box-Cox transformations. This adjustment yielded slightly improved results (R=0.058). Notably, there were no warning notes in the OLS Regression Results report. However, despite the residual plots appearing closer to a normal distribution, the results of the Shapiro-Wilk test led to the rejection of linear regression assumptions.<br>
-
+- 5. Model No. 2, which was considered the best among all models, incorporated a normalized 'gdp_per_capita' variable through logarithmic and Box-Cox transformations. This adjustment yielded slightly improved results (R=0.058). Notably, there were no warning notes in the OLS Regression Results report. However, despite the residual plots appearing closer to a normal distribution, the results of the Shapiro-Wilk test led to the rejection of linear regression assumptions.<br>
+    
 <b>In conclusion, the overall outcome indicates that we were unable to identify a linear regression model suitable for our dataset.</b>
 
-
+- 6. Just a try for logaritmic model because of kinda logaritmic shape on the scatter plot.Didn't have time to go deeper.
+    
+    
 #### Files description
 *  EDA_and_Modeling_GM.ipynb : includes analyses of main data, cleaning, dealing with missing values, simple visualizations and linear regression models
 *  Suicide_overview_1985_to_2016.csv : main dataset taken from kaggle (https://www.kaggle.com/datasets/russellyates88/suicide-rates-overview-1985-to-2016). 

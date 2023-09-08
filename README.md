@@ -36,6 +36,8 @@ The following attempts were processed:
 
 - 6. Just a try for logaritmic model because of kinda logaritmic shape on the scatter plot.Didn't have time to go deeper.
     
+- 7. Other challenges: understanding pushing and pulling files in GITHUB took a lot of time and trials
+    
     
 #### Files description
 *  EDA_and_Modeling_GM.ipynb : includes analyses of main data, cleaning, dealing with missing values, simple visualizations and linear regression models

@@ -19,6 +19,10 @@ In our project, we're using GitHub to work together with classmates. To make thi
 *  Reshape the dataframe, pivoting columns values with categorical data into columns with 'suicides/100k pop' to make multivariable regression model
 * Different attemnts with many, then 2, then 1 variable didn't get a linear model fitting to our data.All models fail the linear regression assumptions : normality and Homoscedasticity.
 
+
+#### Vizaulizations (Tableau)
+*  created 9 vizuals with different chart types and one dashboard with combined data about suicides 
+
 #### Challenges
 *  Developing a linear regression model to fit the dataset did not yield the anticipated outcomes.
 The following attempts were processed:
@@ -36,6 +40,8 @@ The following attempts were processed:
 
 - 6. Just a try for logaritmic model because of kinda logaritmic shape on the scatter plot.Didn't have time to go deeper.
     
+- 7. Other challenges: understanding pushing and pulling files in GITHUB took a lot of time and trials
+    
     
 #### Files description
 *  EDA_and_Modeling_GM.ipynb : includes analyses of main data, cleaning, dealing with missing values, simple visualizations and linear regression models
@@ -44,8 +50,6 @@ The following attempts were processed:
 *  removed columns with identical meaning
 *  grouping rows per country, year and gpd_per_capita
 *  pivoting 'age' and 'sex' to many columns with names as values from 'age' and 'sex' and values corresponding to  "'suicides/100k pop'" for the row
-
-#### Questions arrising during the analysis (to keep it somewhere)
-Is there correlation between the number of suicides and <br>
-- geographical location (north VS south, more sunny VS more cloudy)
-- religion in the country
+    
+*  Suicides_overview_per_country1985-2015.pdf: final Tableau dashboard in pdf format
+*  Suicides_overview_per_country1985-2015.twbx: final Tableau file in twbx format
